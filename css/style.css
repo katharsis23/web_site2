@@ -1,0 +1,537 @@
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Changed to a more modern font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  #b8b2ad; /* Added a subtle background color */
+}
+
+header {
+   
+    background-color: #9e958d; /* Softened header color */
+    color: black;
+    text-align: center;
+    
+   
+    
+}
+
+
+.logo{
+    width: 40%;
+    
+}
+
+nav {
+    background-color: rgb(255, 255, 255); /* Lighter nav background */
+    color: rgb(208, 203, 203);
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.menu{
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Changed to inline-block for better spacing */
+    margin: 0 15px; /* Adjusted margin for better spacing */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.1rem; /* Slightly increased font size */
+}
+
+nav ul li a:hover {
+    color: #333; /* Darkened hover color */
+    opacity: 0.9;
+}
+
+h3{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    
+}
+
+
+
+main {
+    
+    background-color:  #b8b2ad; /* Softer background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+main div a {
+    color: #3c3b3b;
+    opacity: 0.85;
+    text-decoration: none;
+    font-size: 1.1rem; /* Increased font size */
+}
+
+a:hover{
+ color: black;
+ opacity:90%;
+
+}
+
+article {
+    padding: 30px; /* Increased padding */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Adjusted min width */
+    gap: 30px; /* Increased gap for better spacing */
+    margin: 20px; /* Increased margin */
+}
+
+.course-card {
+    
+    
+  background-color: #b8b2ad;
+    background: linear-gradient(to bottom, #b8b2ad, #b8b2ad);
+    text-align: start;
+}
+
+.course-card1 {
+    
+    
+    background-color: #ffffff;
+      background: linear-gradient(to bottom, #ffffff, #ffffff);
+      text-align: start;
+  }
+
+  .video{
+    float: left;
+    width: 50%;
+    padding: 20px;
+   
+  }
+
+  h1{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+  }
+
+  
+  h2{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+  }
+
+  .label{
+    font-family: "Pacifico", cursive;
+  }
+  
+
+  .actual{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .actualproblem{
+    padding-top: 0px;
+    font-size: 40px;
+  }
+
+
+.hiring{
+    width: 80%;
+}
+
+
+.course-card p{
+    font-size: 26px;
+    font-family: "Pacifico", cursive;
+}
+
+
+
+.course-card a{
+    font-family: "Pacifico", cursive;
+    color:#000000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+}s
+
+.course-card a:hover{
+   opacity: 90%;
+}
+
+.osvita{
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #ffffff; /* Lighter footer background */
+    color: black;
+    text-align: center;
+    padding: 1rem; /* Increased padding */
+    position: static;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.socmed{
+    width: 20%;
+}
+
+footer .copyrights {
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: solid grey;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding: 20px 60px 10px 60px; /* Adjusted padding */
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    margin: 10px; /* Adjusted margin */
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .col a {
+    font-size: 52px; /* Slightly increased icon size */
+    color: #000000;
+}
+
+.container .col a i:hover {
+    opacity: 0.9;
+}
+
+.container .col a i {
+    font-size: 52px; /* Slightly increased icon size */
+    color: #000000;
+}
+
+.container .col a i:hover {
+    opacity: 0.9;
+}
+
+.container .col p {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px; /* Slightly decreased font size */
+    font-weight: bold; /* Changed to bold */
+    font-family: 'Frank Ruhl Libre', serif; /* Changed font for emphasis */
+}
+
+.empty_container {
+    height: 200px;
+    width: 100vh;
+}
+
+.container_cent {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.counter{
+    background-color:white;
+    width: 100%;
+}
+
+.container_cent1 {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.countdown-container {
+    text-align: center;
+    background: linear-gradient(to center, #e8d1b6, #FFCD8C) ;/* Softer countdown color */
+    padding: 20px; /* Added padding */
+    border-radius: 8px; /* Rounded corners */
+    padding-bottom: 50px;
+}
+
+.container_around {
+    padding: 20px 60px 10px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contactForm {
+    background-color: #ffffff;
+padding: 50px;
+margin-bottom: 90px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+
+
+.photo{
+    padding: 70px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Increased margin */
+}
+
+.time-section {
+    margin: 0 20px; /* Adjusted margin */
+}
+
+.time-section span {
+    font-size: 4rem; /* Increased font size */
+    font-weight: bold;
+    display: block;
+    color: #3c3b3b; /* Darkened text color */
+}
+
+.label {
+    font-size: 1.5rem; /* Increased label font size */
+    margin-top: 5px;
+}
+
+#Form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+main div div h4{
+    text-align:end;
+    color:crimson;
+    font-family:'Impact';
+    font-size: 24px;
+
+ }
+
+ article {
+padding: 30px; /* Increased padding */
+border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+.course-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Adjusted min width */
+gap: 30px; /* Increased gap for better spacing */
+margin: 20px; /* Increased margin */
+}
+
+.course-card {
+border: 1px solid #ffffff;
+border-radius: 8px; /* Rounded corners */
+padding: 15px; /* Increased padding */
+background: linear-gradient(to bottom, #ffffff, #ffffff);
+text-align: start;
+}
+
+        .arrow {
+            transition: transform 0.3s ease;
+            font-size: 24px;
+            border: none;
+            text-align: right;
+            cursor: pointer;
+            background: #ffffff;
+            width: 26px;
+            height: 24px;
+            padding-left: 80%;
+        }
+
+        .hidden {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            font-size: 14;
+        }
+
+        .visible {
+            padding-top: 5px;
+            max-height: 500px; /* Adjust as per content size */
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+            opacity: 1;
+            font-size: 14px;
+        }
+
+.arrow_button:hover {
+    opacity: 0.9;
+}
+
+/* .button_text {
+    flex-grow: 1;
+    text-align: center;
+} */
+
+.fa-arrow-right {
+    transition: transform 0.3s ease;
+    font-size: 24px;
+}
+
+
+
+/* .arrow{
+    display: flex;
+    align-content: right;
+} */
+
+
+
+
+
+button {
+    width: 100%;
+    padding: 12px; /* Increased button padding */
+    background: linear-gradient(to right, #ffffff, #fffcf9);
+    border: none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    /* display: flex;
+    align-content: right; */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .col {
+        margin: 10px 0;
+    }
+
+    .container_cent {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    #countdown {
+        flex-wrap: wrap;
+    }
+
+    .time-section {
+        margin: 10px;
+    }
+
+    .time-section span {
+        font-size: 2rem;
+    }
+
+    .label {
+        font-size: 1rem;
+    }
+
+    #Form {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header, nav, main, footer {
+        padding: 10px;
+    }
+
+    .course-card {
+        margin-left: 0;
+    }
+
+    .container .col p {
+        font-size: 24px;
+    }
+
+    .time-section span {
+        font-size: 1.5rem;
+    }
+
+    .label {
+        font-size: 0.8rem;
+    }
+}
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+}
